@@ -1,0 +1,10 @@
+framework module InformSDK {
+  umbrella header "InformSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module InformSDK.Swift {
+    header "InformSDK-Swift.h"
+}
