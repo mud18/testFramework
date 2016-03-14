@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-#s.source       = { :git => "https://github.com/mud18/InformSDKTest.git", :tag => "1.0.0" }
+s.source       = { :git => "https://github.com/mud18/InformSDKTest.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "InformSDK/1.0"
+#s.source_files  = "InformSDK/1.0"
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -137,5 +137,5 @@ s.dependency 'Alamofire', '~> 3.0'
 s.dependency 'MBProgressHUD', '~> 0.9.2'
 s.dependency 'Argo'
 s.dependency 'Curry', '~> 1.4.0'
-s.ios.vendored_framework = "iOS/dynamicFramework/v-0.0.0.1/CrashReporter.framework"
+s.ios.vendored_framework = "iOS/dynamicFramework/v-0.0.0.1"
 end
