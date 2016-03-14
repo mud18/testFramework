@@ -91,7 +91,7 @@ s.source       = { :git => "https://github.com/mud18/InformSDKTest.git", :tag =>
   #  Not including the public_header_files will make all headers public.
   #
 
-#s.source_files  = "Classes", "Classes/**/*.{h,m}"
+s.source_files  = "InformSDK/1.0"
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
