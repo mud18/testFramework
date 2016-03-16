@@ -137,7 +137,7 @@ s.dependency 'Alamofire', '~> 3.0'
 s.dependency 'MBProgressHUD', '~> 0.9.2'
 s.dependency 'Argo'
 s.dependency 'Curry', '~> 1.4.0'
-s.ios.vendored_framework = "InformSDK.framework"
+s.ios.vendored_framework = "iOS/dynamicFramework/v-1.0.0/InformSDK.framework"
 
 
 
