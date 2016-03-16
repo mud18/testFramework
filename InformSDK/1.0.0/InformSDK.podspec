@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source       = { :git => "https://github.com/mud18/InformSDKTest.git", :tag => "1.5.0" }
+s.source       = { :git => "https://github.com/mud18/InformSDKTest.git", :tag => "1.6.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
